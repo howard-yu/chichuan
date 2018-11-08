@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
-@import url('font-awesome.css');  
+
+@import url('font-awesome.min.css');  
 @import url('animate.css');
 
 body {
@@ -1512,8 +1513,6 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
-
 .clear-marginbot{
 	margin-bottom:0;
 }
