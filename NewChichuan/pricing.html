@@ -50,16 +50,38 @@
                     </button>
 					<a class="navbar-brand" href="index.html"><img src="img/池川Log.png" alt="logo"/></a>
                 </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li> 
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="active"><a href="pricing.html">實績經歷</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+				<div class="navbar-collapse collapse ">
+					<ul class="nav navbar-nav">
+						<li class=""><a href="index.html">Home</a></li> 
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">關於池川</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="summary.html">公司概要</a></li>
+								<li><a class="dropdown-item" href="business.html">經營理念</a></li>
+								<li><a class="dropdown-item" href="equipment.html">機具設備</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">服務介紹</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="services.html">服務概要</a></li>
+								<li><a class="dropdown-item" href="waterdoc.html">水權申請所需準備書件</a></li>
+								<li><a class="dropdown-item" href="spaservice.html">溫泉開發申請流程</a></li>
+								<li><a class="dropdown-item" href="sapdoc.html">溫泉開發許可所需文件</a></li>
+							</ul>
+						</li>
+						<li class="active"><a href="pricing.html">實績經歷</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="bookmark outline icon"></i>相關資訊</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="standard.html">溫泉標準</a></li>
+								<li><a class="dropdown-item" href="regulation.html">法規</a></li>
+								<li><a class="dropdown-item" href="scopeofcontrol.html">地下水管制區範圍</a></li>
+							</ul>
+						</li>
+						<li><a href="contactus.html">聯絡我們</a></li>
+					</ul>
+				</div>
             </div>
         </div>
 	</header><!-- end header -->
@@ -67,13 +89,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Pricing</h2>
 			</div>
 		</div>
 	</div>
-	<section id="content">
+	
 	<div id="chartdiv" style="width: 100%; height: 925px;"></div>
-	</section>
+
 	<footer>
 			<div class="container">
 				<div class="row">
@@ -91,8 +112,8 @@
 							<h5 class="widgetheading">快 速 連 結</h5>
 							<ul class="link-list">
 								<li><a href="summary.html">關於池川</a></li>
-								<li><a href="service.html">服務介紹</a></li>
-								<li><a href="experience.html">實績經歷</a></li>
+								<li><a href="services.html">服務介紹</a></li>
+								<li><a href="pricing.html">實績經歷</a></li>
 								<li><a href="standard.html">相關資訊</a></li>
 								<li><a href="contactus.html">聯絡我們</a></li>
 							</ul>
@@ -148,7 +169,7 @@
 			"pathToImages": "http://www.amcharts.com/lib/3/images/",
 			"addClassNames": true,
 			"fontSize": 15,
-			"color": "#000000",
+			"color": "#888888",
 			"projection": "mercator",
 			"backgroundAlpha": 1,
 			"backgroundColor": "rgba(165,248,246,1)",
@@ -165,7 +186,7 @@
 						"longitude": 121.6307009,
 						"latitude": 25.2196637,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -174,7 +195,7 @@
 						"longitude": 121.6470562,
 						"latitude": 25.2243794,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -183,7 +204,7 @@
 						"longitude": 121.6443303,
 						"latitude": 25.2297088,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -192,7 +213,7 @@
 						"longitude": 121.5950298,
 						"latitude": 25.2093938,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -201,7 +222,7 @@
 						"longitude": 121.5921342,
 						"latitude": 25.2066819,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -210,7 +231,7 @@
 						"longitude": 121.630535,
 						"latitude": 25.2223852,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -219,7 +240,7 @@
 						"longitude": 121.635106,
 						"latitude": 25.2175255,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -228,7 +249,7 @@
 						"longitude": 121.5844683,
 						"latitude": 25.23329,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -237,7 +258,7 @@
 						"longitude": 121.6258339,
 						"latitude": 25.2278588,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -246,7 +267,7 @@
 						"longitude": 121.6362594,
 						"latitude": 25.2173075,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0088",
 						"scale": 0.65
 					},
 					{
@@ -255,7 +276,7 @@
 						"longitude": 121.5238895,
 						"latitude": 24.8379725,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -264,7 +285,7 @@
 						"longitude": 121.5226611,
 						"latitude": 24.8351948,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -273,7 +294,7 @@
 						"longitude": 121.4877664,
 						"latitude": 24.7762129,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -282,7 +303,7 @@
 						"longitude": 121.5493902,
 						"latitude": 24.8639843,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -291,7 +312,7 @@
 						"longitude": 121.5472675,
 						"latitude": 24.8622194,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -300,7 +321,7 @@
 						"longitude": 121.5452748,
 						"latitude": 24.8704415,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -309,7 +330,7 @@
 						"longitude": 121.5442876,
 						"latitude": 24.8638284,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -318,7 +339,7 @@
 						"longitude": 121.5452194,
 						"latitude": 24.8707391,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -327,7 +348,7 @@
 						"longitude": 121.554418,
 						"latitude": 24.8607791,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -336,7 +357,7 @@
 						"longitude": 121.5458123,
 						"latitude": 24.8612618,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF0000",
 						"scale": 0.65
 					},
 					{
@@ -345,7 +366,7 @@
 						"longitude": 121.4053194,
 						"latitude": 24.8708964,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -354,7 +375,7 @@
 						"longitude": 121.4053194,
 						"latitude": 24.8708964,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -363,7 +384,7 @@
 						"longitude": 121.4472977,
 						"latitude": 24.8451834,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -372,7 +393,7 @@
 						"longitude": 121.3595583,
 						"latitude": 24.9426967,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -381,7 +402,7 @@
 						"longitude": 121.3603882,
 						"latitude": 24.9426956,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -390,7 +411,7 @@
 						"longitude": 121.3951314,
 						"latitude": 24.9416512,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF5511",
 						"scale": 0.65
 					},
 					{
@@ -399,7 +420,7 @@
 						"longitude": 121.4462433,
 						"latitude": 25.1324896,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 
@@ -409,7 +430,7 @@
 						"longitude": 121.397560,
 						"latitude": 25.145167,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 
@@ -419,7 +440,7 @@
 						"longitude": 121.382231,
 						"latitude": 25.127869,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 
@@ -429,7 +450,7 @@
 						"longitude": 121.382098,
 						"latitude": 25.128389,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 					
@@ -439,7 +460,7 @@
 						"longitude": 121.454355,
 						"latitude": 25.161626,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -449,7 +470,7 @@
 						"longitude": 121.457664,
 						"latitude": 25.159611,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -459,7 +480,7 @@
 						"longitude": 121.415954,
 						"latitude": 25.181598,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -469,7 +490,7 @@
 						"longitude": 121.438271,
 						"latitude": 25.189201,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -479,7 +500,7 @@
 						"longitude": 121.431268,
 						"latitude": 25.178538,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -489,7 +510,7 @@
 						"longitude": 121.475468,
 						"latitude": 25.193765,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 
@@ -499,7 +520,7 @@
 						"longitude": 121.456589,
 						"latitude": 25.236920,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFBB00",
 						"scale": 0.65
 					},
 					
@@ -509,7 +530,7 @@
 						"longitude": 121.945153,
 						"latitude": 25.017581,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FFFF00",
 						"scale": 0.65
 					},
 					
@@ -519,7 +540,7 @@
 						"longitude": 121.382352,
 						"latitude": 25.080810,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#00FF00",
 						"scale": 0.65
 					},
 
@@ -529,7 +550,7 @@
 						"longitude": 121.372045,
 						"latitude": 25.069127,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#00FF00",
 						"scale": 0.65
 					},
 
@@ -539,7 +560,7 @@
 						"longitude": 121.350273,
 						"latitude": 25.094847,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#00FF00",
 						"scale": 0.65
 					},
 					{
@@ -548,7 +569,7 @@
 						"longitude": 121.690249,
 						"latitude": 25.180982,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 
@@ -558,7 +579,7 @@
 						"longitude": 121.641382,
 						"latitude": 25.210109,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 
@@ -568,7 +589,7 @@
 						"longitude": 121.643210,
 						"latitude": 25.216093,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -577,7 +598,7 @@
 						"longitude": 121.645438,
 						"latitude": 25.217798,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -586,7 +607,7 @@
 						"longitude": 121.648080,
 						"latitude": 25.211359,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -595,7 +616,7 @@
 						"longitude": 121.646066,
 						"latitude": 25.211460,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -604,7 +625,7 @@
 						"longitude": 121.617140,
 						"latitude": 25.18814,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -613,7 +634,7 @@
 						"longitude": 121.644423,
 						"latitude": 25.214408,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 
@@ -623,7 +644,7 @@
 						"longitude": 121.649902,
 						"latitude": 25.202675,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#0000FF",
 						"scale": 0.65
 					},
 					{
@@ -632,7 +653,7 @@
 						"longitude": 121.384560,
 						"latitude": 24.948552,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -642,7 +663,7 @@
 						"longitude": 121.421250,
 						"latitude": 25.001854,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -652,7 +673,7 @@
 						"longitude": 121.406035,
 						"latitude": 24.961515,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -662,7 +683,7 @@
 						"longitude": 121.374311,
 						"latitude": 24.952076,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -672,7 +693,7 @@
 						"longitude": 121.392355,
 						"latitude": 24.956486,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -682,7 +703,7 @@
 						"longitude": 121.412244,
 						"latitude": 25.018237,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -692,7 +713,7 @@
 						"longitude": 121.414368,
 						"latitude": 24.971329,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -702,7 +723,7 @@
 						"longitude": 121.384187,
 						"latitude": 24.954707,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 
@@ -712,7 +733,7 @@
 						"longitude": 121.416092,
 						"latitude": 24.983978,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#5500FF",
 						"scale": 0.65
 					},
 					{
@@ -721,7 +742,7 @@
 						"longitude": 121.534107,
 						"latitude": 24.958120,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#7700FF",
 						"scale": 0.65
 					},
 
@@ -731,7 +752,7 @@
 						"longitude": 121.503224,
 						"latitude": 24.941443,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#7700FF",
 						"scale": 0.65
 					},
 
@@ -742,7 +763,7 @@
 						"longitude": 121.548664,
 						"latitude": 24.909361,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#7700FF",
 						"scale": 0.65
 					},
 
@@ -753,7 +774,7 @@
 						"longitude": 121.523339,
 						"latitude": 24.972006,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#7700FF",
 						"scale": 0.65
 					},
 					{
@@ -762,7 +783,7 @@
 						"longitude": 121.413310,
 						"latitude": 24.958959,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -772,7 +793,7 @@
 						"longitude": 121.459161,
 						"latitude": 24.969566,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -782,7 +803,7 @@
 						"longitude": 121.436397,
 						"latitude": 24.971724,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -792,7 +813,7 @@
 						"longitude": 121.422430,
 						"latitude": 24.965003,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -803,7 +824,7 @@
 						"longitude": 121.424318,
 						"latitude": 24.963118,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -813,7 +834,7 @@
 						"longitude": 121.415105,
 						"latitude": 24.959190,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -823,7 +844,7 @@
 						"longitude": 121.413898,
 						"latitude": 24.960392,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 
@@ -833,7 +854,7 @@
 						"longitude": 121.427773,
 						"latitude": 24.961029,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#9900FF",
 						"scale": 0.65
 					},
 					{
@@ -842,7 +863,7 @@
 						"longitude": 121.462774,
 						"latitude": 25.060190,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#CC00FF",
 						"scale": 0.65
 					},
 					{
@@ -851,7 +872,7 @@
 						"longitude": 121.427344,
 						"latitude": 25.091421,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF00FF",
 						"scale": 0.65
 					},
 					{
@@ -860,7 +881,7 @@
 						"longitude": 121.417924,
 						"latitude": 25.093717,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF00FF",
 						"scale": 0.65
 					},
 					{
@@ -869,7 +890,7 @@
 						"longitude": 121.443847,
 						"latitude": 25.104655,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF00FF",
 						"scale": 0.65
 					},
 					{
@@ -878,7 +899,7 @@
 						"longitude": 121.420803,
 						"latitude": 25.030939,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#C10066",
 						"scale": 0.65
 					},
 					{
@@ -887,7 +908,7 @@
 						"longitude": 121.575846,
 						"latitude": 25.279001,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 					{
@@ -896,7 +917,7 @@
 						"longitude": 121.558434,
 						"latitude": 25.273022,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 					{
@@ -905,7 +926,7 @@
 						"longitude": 121.530872,
 						"latitude": 25.283819,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#FF8800",
 						"scale": 0.65
 					},
 					{
@@ -914,7 +935,7 @@
 						"longitude": 121.662115,
 						"latitude": 25.058675,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#EE7700",
 						"scale": 0.65
 					},
 					{
@@ -923,7 +944,7 @@
 						"longitude": 121.638214,
 						"latitude": 25.038736,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#EE7700",
 						"scale": 0.65
 					},
 					{
@@ -932,7 +953,7 @@
 						"longitude": 121.663802,
 						"latitude": 25.053708,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#EE7700",
 						"scale": 0.65
 					},
 					{
@@ -941,7 +962,7 @@
 						"longitude": 121.698935,
 						"latitude": 25.150381,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -951,7 +972,7 @@
 						"longitude": 121.685341,
 						"latitude": 25.114392,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -961,7 +982,7 @@
 						"longitude": 121.537210,
 						"latitude": 25.036628,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -971,7 +992,7 @@
 						"longitude": 121.750114,
 						"latitude": 24.830238,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -981,7 +1002,7 @@
 						"longitude": 121.369389,
 						"latitude": 25.060253,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -991,7 +1012,7 @@
 						"longitude": 121.360550,
 						"latitude": 25.046588,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -1001,7 +1022,7 @@
 						"longitude": 121.365599,
 						"latitude": 25.019909,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -1011,7 +1032,7 @@
 						"longitude": 121.290180,
 						"latitude": 24.929669,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -1021,7 +1042,7 @@
 						"longitude": 120.931506,
 						"latitude": 23.846806,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 
@@ -1031,7 +1052,7 @@
 						"longitude": 120.637879,
 						"latitude": 22.690358,
 						"svgPath": targetSVG,
-						"color": "#000000",
+						"color": "#888888",
 						"scale": 0.65
 					},
 				],
@@ -1152,7 +1173,7 @@
 			"imagesSettings": {
 				"color": "#CC0000",
 				"rollOverColor": "#CC0000",
-				"selectedColor": "#000000"
+				"selectedColor": "#888888"
 			},
 			"linesSettings": {
 				"color": "rgba(203,182,182,1)",
@@ -1173,14 +1194,91 @@
 				"gridColor": "#FFFFFF",
 				"draggerAlpha": 1,
 				"buttonCornerRadius": 2
-			}
+			},
+			"legend": {
+				"width": "100%",
+				"marginRight": 30,
+				"marginLeft": 30,
+				"equalWidths": true,
+				"backgroundAlpha": 0.5,
+				"backgroundColor": "#FFFFFF",
+				"borderColor": "#ffffff",
+				"borderAlpha": 1,
+				"top": 0,
+				"left": 0,
+				"horizontalGap":10,
+				"data": [ 
+					{
+						"title": "金山區",
+						"color": "#FF0088"
+					}, 
+					{
+						"title": "烏來區",
+						"color": "#FF0000"
+					},
+					{
+						"title": "三峽區",
+						"color": "#FF5511"
+					}, 
+					{
+						"title": "八里區",
+						"color": "#FF8800"
+					},
+					{
+						"title": "淡水區",
+						"color": "#FFBB00"
+					},
+					{
+						"title": "貢寮區",
+						"color": "#FFFF00"
+					},
+					{
+						"title": "林口區",
+						"color": "#00FF00"
+					},
+					{
+						"title": "萬里區",
+						"color": "#0000FF"
+					},     
+					{
+						"title": "樹林區",
+						"color": "#5500FF"
+					},    
+					{
+						"title": "新店區",
+						"color": "#7700FF"
+					},    
+					{
+						"title": "土城區",
+						"color": "#9900FF"
+					},  
+					{
+						"title": "新莊區",
+						"color": "#CC00FF"
+					},  
+					{
+						"title": "五股區",
+						"color": "#FF00FF"
+					},  
+					{
+						"title": "泰山區",
+						"color": "#C10066"
+					},  
+					{
+						"title": "石門區",
+						"color": "#FF8800"
+					},   
+					{
+						"title": "汐止區",
+						"color": "#EE7700"
+					},  
+					{
+						"title": "其他區",
+						"color": "#888888"
+					}, 
+				]
+  			},
 		});
 </script>
-<style>
-	a {
-		color: #f5f5f5;
-		text-decoration: none;
-	}
-</style>
 </body>
 </html>
