@@ -1775,4 +1775,10 @@ a {
 
 p.red_text {font-size: 1.4em;line-height: 2;color: #d4003b;}
 
+span.red_text {font-size: 1em;line-height: 2;color: #d4003b;}
+
+.navbar-collapse {
+	max-height: 500px;
+}
+
  
