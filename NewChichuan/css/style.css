@@ -108,7 +108,7 @@ header .nav li.active ul.dropdown-menu li.active a{
 header .nav li.active a,
 header .nav li a.active,
 header .nav li.active a:hover{ 
-background: #269B9E !important;
+background: #6dd0cd !important;
 border-radius: 80%;
 }
 header .navbar-default .navbar-nav > .open > a,
@@ -275,7 +275,7 @@ ul.nav li.dropdown a {
 	display:none;
 }
 .pageTitle{
-color: #269B9E;
+color: #8bd2c2;
 margin: 28px 0 3px;
 display: inline-block;
 background: rgba(255, 255, 255, 0.85);
@@ -354,7 +354,7 @@ font-weight: 700;
 padding: 50px 0 60px 0;
 margin: 0 0 0 0; 
 text-align: center;
-background: #269B9E;
+background: #8bd2c2;
 }
 .testi-icon-area {
 text-align: center;
@@ -511,7 +511,7 @@ color:#428bca
 ==================================== */
 
 #inner-headline{
-	background: #269B9E;
+	/*background: #8bd2c2; */
 	position:relative;
 	margin:0;
 	padding:0;
@@ -736,7 +736,7 @@ height: 100%;
 opacity: 0.80;
 filter: alpha(opacity=80);
 
-	background: #269B9E;
+	background: #8bd2c2;
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -911,7 +911,7 @@ blockquote cite a:visited 				{ color:#555; }
 
 /* --- button --- */
 .btn{text-align: center;
-background: #269B9E;
+background: #8bd2c2;
 color: #fff;
 padding: 10px 25px;border: 0;}
 .btn-theme {
@@ -1026,12 +1026,12 @@ font-size: 28px;
 }
 #service .service-tab ul li.active, #service .service-tab ul li a:hover, #service .service-tab ul li a:hover i , #service .service-tab ul li.active a, #service .service-tab ul li.active i{
 background: rgb(228, 228, 228) !important;
-color: #269B9E; 
+color: #8bd2c2; 
 text-decoration: none;
 }
 
 .contactInfo{
-background:#269b9e;
+background:#8bd2c2;
 }
 .contact-area{
 float:right;
@@ -1222,7 +1222,7 @@ background: #FFFFFF;
 
 .pricing-box-item .pricing-terms {
 	text-align: center;
-	background: #269B9E;
+	background: #0abbb5;
 	display: block;
 	overflow: hidden;
 	padding: 11px 0 5px; 
@@ -1567,7 +1567,7 @@ padding: 3px 30px 6px;
 background: #0F9090;
 }
 span.post-meta-bottom a {
-background: #269B9E;
+background: #8bd2c2;
 color: #fff;
 padding: 4px 14px;
 display: inline-block;
@@ -1779,6 +1779,10 @@ span.red_text {font-size: 1em;line-height: 2;color: #d4003b;}
 
 .navbar-collapse {
 	max-height: 500px;
+}
+
+.breadcrumb-item a{
+	color: #2FADDE;
 }
 
  
