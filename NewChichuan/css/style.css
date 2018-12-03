@@ -46,8 +46,8 @@ body {
 	font-family:'Noto Sans TC', Arial, '儷黑 Pro', '微軟正黑體', Microsoft JhengHei, sans-serif !important;
 	font-size:16px;
 	font-weight:300;
-	line-height:3.2em;
-	color:#656565;
+	line-height:2.2em;
+	color:#4e4c4c;
 }
 
 a:active {
@@ -1824,4 +1824,8 @@ span.red_text {font-size: 1em;line-height: 2;color: #d4003b;}
 
 .breadcrumb-item a{
 	color: #2FADDE;
+}
+
+.img-circle {
+    border-radius: 60%;
 }
