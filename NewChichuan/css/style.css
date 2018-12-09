@@ -1829,3 +1829,7 @@ span.red_text {font-size: 1em;line-height: 2;color: #d4003b;}
 .img-circle {
     border-radius: 60%;
 }
+
+.badge {
+    background-color: #2FADDE;
+}
